@@ -70,10 +70,34 @@ h1, h2, h3 {
   color: #262724;           /* テキストカラー */
 }
 
+h2 .heading {
+    display: inline;
+  }
+
+h2 .note {
+    /* display: inline; */
+    font-weight: 300;  /* 細い */
+    font-size: 0.85em; /* 少し小さく */
+    margin-left: 0.5em;
+  }
+
 /* 本文段落 */
 p {
   margin-bottom: 1rem;
   color: #262724;           /* テキストカラー */
+}
+
+a {
+  color:inherit;          /* リンクはテキストカラーを継承 */
+}
+
+strong {
+  color: #627661;
+}
+
+.double-underline {
+    text-decoration: underline double;
+    text-decoration-color: #627661; /* アクセントカラー */
 }
 
 /* ------------------------------------------------
